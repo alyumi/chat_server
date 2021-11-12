@@ -26,3 +26,4 @@ def hello():
         yield from websocket.close()
 
 asyncio.get_event_loop().run_until_complete(hello())
+index()
